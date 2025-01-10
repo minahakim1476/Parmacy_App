@@ -17,6 +17,7 @@ class AddNewClass : AppCompatActivity() {
     private var Discount_Edt : EditText ?= null
     private var NumberInReserve_Edt : EditText ?= null
     private var NameOfActiveIngrediant_Edt : EditText ?= null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
