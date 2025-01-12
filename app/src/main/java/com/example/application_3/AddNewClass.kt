@@ -58,6 +58,8 @@ class AddNewClass : AppCompatActivity() {
                 NameOfActiveIngrediant)
 
             Toast.makeText(this,"تم اضافة دواء" , Toast.LENGTH_SHORT).show()
+
+
             var intent = Intent(this , MainActivity::class.java)
             startActivity(intent)
             finish()

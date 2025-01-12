@@ -19,6 +19,13 @@ class MainActivity : AppCompatActivity() {
      fun AddNewClass(view : View){
         var intent = Intent(this, AddNewClass::class.java)
          startActivity(intent)
-         finish()
+    }
+
+    fun ShowClasses(view : View){
+        startActivity(Intent(this, AvailableMedicines::class.java))
+    }
+
+    fun requestes(view : View){
+        startActivity(Intent(this,Requestes::class.java))
     }
 }
